@@ -19,7 +19,7 @@ Freelancing Project : It is an android application which manage the records and 
 <img src="screenshots/6.jpg" height="400" width="250">
 
 
-<img src="screenshots/7.png" height="1200" width="250">
+<img src="screenshots/7.png" height="1400" width="250">
 
 
 <img src="screenshots/8.jpg" height="400" width="250">
