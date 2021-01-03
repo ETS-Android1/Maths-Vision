@@ -50,10 +50,26 @@ This app is used to handle all the type of necessary data of a coaching class wh
 <img src="screenshots/8.jpg" height="400" width="250">
 
 
+
+Different Type ofSearching.
+
+
+
 <img src="screenshots/9.jpg" height="400" width="250">
 
 
+
+### 7. Delete Informations :
+
+
+
 <img src="screenshots/10.jpg" height="400" width="250">
+
+
+
+### 8. Data Backup :
+
+If the admin will lost all the data or uninstall the app , So using this backup opetion admin can restore all the lost data from the data server.
 
 
 <img src="screenshots/11.jpg" height="400" width="250">
