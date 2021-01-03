@@ -1,5 +1,9 @@
 # Maths-Vision
-Freelancing Project : It is an android application which manage the records and data of a coaching classes
+Freelancing Project : It is an android application which manage the records and data of a coaching classes.
+
+This app is used to handle all the type of necessary data of a coaching class whose name is Maths Vision. 
+
+## Application Screenshots :-
 
 <img src="screenshots/1.jpg" height="400" width="250">
 
