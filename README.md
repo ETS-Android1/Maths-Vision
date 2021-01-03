@@ -8,10 +8,12 @@ This app is used to handle all the type of necessary data of a coaching class wh
 ### 1. Starting Screen :
 
 
+
 <img src="screenshots/1.jpg" height="400" width="250">
 
 
 ### 2. Admin Registration : 
+
 
 
 <img src="screenshots/2.png" height="400" width="250">
@@ -20,10 +22,12 @@ This app is used to handle all the type of necessary data of a coaching class wh
 ### 3. Admin Login :
 
 
+
 <img src="screenshots/3.jpg" height="400" width="250">
 
 
 ### 4. Home Page :
+
 
 
 <img src="screenshots/4.png" height="400" width="250">
@@ -69,7 +73,8 @@ Different Type ofSearching.
 
 ### 8. Data Backup :
 
-If the admin will lost all the data or uninstall the app , So using this backup opetion admin can restore all the lost data from the data server.
+If the admin will lost all the data or uninstall the app , So using this backup option admin can restore all the lost data from the data server.
+
 
 
 <img src="screenshots/11.jpg" height="400" width="250">
