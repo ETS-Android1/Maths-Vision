@@ -55,7 +55,7 @@ This app is used to handle all the type of necessary data of a coaching class wh
 
 
 
-Different Type ofSearching.
+Different Type of Searching.
 
 
 
