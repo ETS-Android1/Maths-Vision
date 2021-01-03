@@ -5,7 +5,14 @@ This app is used to handle all the type of necessary data of a coaching class wh
 
 ## Application Screenshots :-
 
+### 1. Starting Screen :
+
+
 <img src="screenshots/1.jpg" height="400" width="250">
+
+
+### 2. Admin Registration : 
+
 
 
 <img src="screenshots/2.png" height="400" width="250">
