@@ -35,6 +35,9 @@ This app is used to handle all the type of necessary data of a coaching class wh
 <img src="screenshots/6.jpg" height="400" width="250">
 
 
+### 5. Add Student Information :
+
+
 <img src="screenshots/7.png" height="1400" width="250">
 
 
