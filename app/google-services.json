@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "679789977018",
+    "firebase_url": "https://maths-vision.firebaseio.com",
+    "project_id": "maths-vision",
+    "storage_bucket": "maths-vision.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679789977018:android:9fb1744576bc2a69e81183",
+        "android_client_info": {
+          "package_name": "com.example.mathsvision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679789977018-im4rkamfa0512fvlvu58sp1sjqajqm7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKsvM1dgK3Ta1EsgjTBfP96QHdStQbXdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679789977018-im4rkamfa0512fvlvu58sp1sjqajqm7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

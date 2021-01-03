@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEnquiry">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/ripple2"
+        android:gravity="center"
+        android:text="*  *  *  *  *  Add Enquiry  *  *  *  *  *"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="375dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logoheader" />
+
+    <TextView
+        android:id="@+id/session"
+        android:layout_width="180dp"
+        android:layout_height="32dp"
+        android:background="#f7ecd0"
+        android:gravity="center"
+        android:text="Session : 2020-21"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <ScrollView
+        android:layout_width="364dp"
+        android:layout_height="463dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/session"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/ripple2"
+                android:gravity="center"
+                android:text="Student Details"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+            <TextView
+                android:id="@+id/eid"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Enquiry Id :"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <EditText
+                android:id="@+id/eqstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:hint="Student Name"
+                android:inputType="textPersonName"
+                 />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <EditText
+                android:id="@+id/eqstfname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:hint="Father's Name"
+                android:inputType="textPersonName"
+                />
+
+
+            <Spinner
+                android:id="@+id/eqclasstojoin"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.498" />
+
+
+
+            <Spinner
+                android:id="@+id/eqboard"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.498" />
+
+
+            <EditText
+                android:id="@+id/eqschoolname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:hint="School Name"
+                android:inputType="textPersonName"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/ripple2"
+                android:gravity="center"
+                android:text="Student's Contact Details"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <EditText
+                android:id="@+id/eqmobno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:hint="Mobile No."
+                android:maxLength="12"
+                android:inputType="number"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <EditText
+                android:id="@+id/eqwhatsappno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="12"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:hint="Whatsapp No. (Optional)"
+                android:inputType="number"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <EditText
+                android:id="@+id/eqaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:hint="Address"
+                android:inputType="textPersonName"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+
+            <EditText
+                android:id="@+id/eqreferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:hint="References (Optional)"
+                android:inputType="textPersonName"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+
+            <EditText
+                android:id="@+id/eqremarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:hint="Remarks (Optional)"
+                android:inputType="textPersonName"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <Button
+                android:id="@+id/eqsave"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/ripple3"
+                android:ems="10"
+                android:textAllCaps="false"
+                android:text="Save"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
