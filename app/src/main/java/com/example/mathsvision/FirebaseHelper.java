@@ -12,7 +12,8 @@ public class FirebaseHelper {
     }
 
     public boolean addStudent(StudentInformation s) {
-        return true;
+        boolean check=true;
+        return check;
     }
 
     public DatabaseReference getEnquiryReference() {
